@@ -22,29 +22,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.imagebatchdesk.com"
-        }
-      ],
-      "destination": "https://imagebatchdesk.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "image-batch-desk.vercel.app"
-        }
-      ],
-      "destination": "https://imagebatchdesk.com/:path*",
-      "permanent": true
-    }
   ]
 }
