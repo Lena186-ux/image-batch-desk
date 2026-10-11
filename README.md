@@ -1,6 +1,6 @@
 # Image Batch Desk
 
-Independent static product-image utility. No framework or external runtime dependencies. Run `node build.mjs` and deploy `dist/`. Default canonical origin: https://image-batch-desk.vercel.app. Override `SITE_URL` only once a custom domain is purchased, configured and verified.
+Independent static product-image utility. No framework or external runtime dependencies. Run `node build.mjs` and deploy `dist/`. Default canonical origin: https://imagebatchdesk.com. `www` and the public Vercel alias redirect to the primary domain.
 
 ## Live capabilities
 
@@ -23,7 +23,7 @@ Before enabling AI: user configures GEMINI_API_KEY privately in Vercel server en
 
 Repository https://github.com/Lena186-ux/image-batch-desk; Vercel project image-batch-desk in existing team. This directory is its own Git repository. Do not modify parent configuration or other projects.
 
-Target custom domain imagebatchdesk.com is not confirmed purchased; no DNS writes performed. After purchase, obtain exact required records from this Vercel project, inspect existing DNS, bind apex/www, verify HTTPS and redirects, rebuild with the new SITE_URL, then configure GSC/Bing and analytics if account access is authorized.
+Domain imagebatchdesk.com confirmed active on 2026-10-11. Vercel-required apex A records 216.198.79.1 and 64.29.17.1, www CNAME e35814e302449547.vercel-dns-017.com, TTL 3600. Only six default parking A records replaced; _domainconnect TXT and nameservers preserved. Configure GSC/Bing and analytics next if account access is authorized.
 
 ## SEO evidence
 
