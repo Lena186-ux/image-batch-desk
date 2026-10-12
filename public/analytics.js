@@ -14,7 +14,7 @@
     window.gtag = function () { window.dataLayer.push(arguments); };
     window.gtag('consent', 'default', {analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied'});
     window.gtag('js', new Date());
-    window.gtag('config', gaId, {debug_mode: new URLSearchParams(location.search).get('analytics_debug') === '1' || undefined, allow_google_signals: false, allow_ad_personalization_signals: false, page_location: location.origin + location.pathname, page_referrer: document.referrer.split('?')[0].split('#')[0]});
+    window.gtag('config', gaId, {allow_google_signals: false, allow_ad_personalization_signals: false, page_location: location.origin + location.pathname, page_referrer: document.referrer.split('?')[0].split('#')[0]});
     load('https://www.googletagmanager.com/gtag/js?id=' + gaId);
     window.clarity = window.clarity || function () { (window.clarity.q = window.clarity.q || []).push(arguments); };
     window.clarity('consentv2', {analytics_Storage: 'granted', ad_Storage: 'denied'});
